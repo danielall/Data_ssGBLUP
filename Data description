@@ -1,0 +1,13 @@
+This data was simulated using QMSim (Sargolzaei & Schenkel, 2009).
+A single trait animal model was assumed, where the additive genetic variance was 0.4 and the residual variance was 0.6.
+All the genetic variance was explained by 500 QTL. Animals were genotyped for 45,000 SNP and the average LD was 0.18.
+Phenotype was generated using the following model: Phenotype = sex_effect + true_breeding_value + residual
+
+phenotypes.txt: animal, generation, sex, phenotype, true breeding value
+
+pedigree.txt: animal, sire, dam
+
+genotypes.txt: animal, SNP_genotype
+SNP_genotype is coded based on the number of copies of the alternative allele (0, 1, 2)
+
+gen_map.txt: SNP order, chromosome number, position (bp)
