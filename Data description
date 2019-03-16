@@ -1,6 +1,7 @@
 This data was simulated using QMSim (Sargolzaei & Schenkel, 2009).
 A single trait animal model was assumed, where the additive genetic variance was 0.4 and the residual variance was 0.6.
 All the genetic variance was explained by 500 QTL. Animals were genotyped for 45,000 SNP and the average LD was 0.18.
+From 12,010 animals in the pedigree, 10,000 have phenotypes and 2024 have genotypes and phenotype. 
 Phenotype was generated using the following model: Phenotype = sex_effect + true_breeding_value + residual
 
 phenotypes.txt: animal, sex, phenotype, true breeding value, generation 
