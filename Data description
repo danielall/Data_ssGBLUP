@@ -3,7 +3,7 @@ A single trait animal model was assumed, where the additive genetic variance was
 All the genetic variance was explained by 500 QTL. Animals were genotyped for 45,000 SNP and the average LD was 0.18.
 Phenotype was generated using the following model: Phenotype = sex_effect + true_breeding_value + residual
 
-phenotypes.txt: animal, generation, sex, phenotype, true breeding value
+phenotypes.txt: animal, sex, phenotype, true breeding value, generation 
 
 pedigree.txt: animal, sire, dam
 
