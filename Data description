@@ -12,3 +12,19 @@ genotypes.txt: animal, SNP_genotype
 SNP_genotype is coded based on the number of copies of the alternative allele (0, 1, 2)
 
 gen_map.txt: SNP order, chromosome number, position (bp)
+
+#Simulation details#
+Data were simulated using the software QMsim (Sargolzaei and Schenkel, 2009). A single trait with heritability of 0.4 was assumed. 
+In the first simulation step, 200 generations of historical population were simulated to create mutation and drift equilibrium and 
+linkage disequilibrium (LD). This historical population started from 50,000 individuals and decreased to 2,100 in the last generation, 
+with equal proportion of males and females. The second step generated an expansion population, which started off 10 males and 
+2000 females from the last historical generation. Each one of the 2000 females was randomly mated and produced 1 offspring per generation. 
+Sire and dam were randomly replaced over 20 generations, and the replacement was 50% and 20%, respectively. The third step was used to 
+generate the recent population that had the same parameters as the expansion population. Five generations were simulated, 
+and all animals were genotytped. Only data from the recent population were used, which comprised pedigree information and phenotypes
+for 10,000 animals, and genotypes for 1020 parents from generations 1-4 and 1004 individuals in generation 5.
+For the genome, 29 chromosomes with a total of 2319 cM were simulated. Each chromosome had similar number of SNP as the 
+BovineSNP50k BeadChip (Illumina Inc., San Diego, CA). Although the number of simulated SNP was 54,000, nearly 45,000 passed 
+the quality control and remained in the analyses. Along with SNP, 500 biallelic QTL were randomly placed on chromosomes. 
+The QTL effects were sampled from a gamma distribution.  The QTL and SNP had recurrent mutations with a probability of 2.5 × 10-5. 
+
